@@ -1,0 +1,149 @@
+$white: #fffffc;
+$dark-blue: #44617b;
+$light-gray: #95949a;
+$font-stack: honoka-marugo, Arial, Helvetica, sans-serif;
+
+#loader-bg {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: $dark-blue;
+  z-index: 10;
+}
+#loader {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  color: $white;
+  z-index: -100;
+}
+
+main {
+  height: 100%;
+}
+
+.mdl-grid {
+    position: relative;
+    min-height: 100%;
+}
+
+.mdl-tooltip {
+  z-index: 1010101;
+}
+
+.highlight {
+    background-color: #f8e58c;
+}
+
+.button,
+#toPageTop {
+    cursor:pointer;
+}
+ 
+#page-title > h1, 
+#page-title > h3, 
+.mdl-card__title-text, 
+.mdl-button,
+.mdl-layout__header-row > .mdl-layout-title,
+.mdl-layout__drawer > .mdl-layout-title,
+body {
+  font-family: $font-stack;
+}
+
+.mdl-layout__header-row > .mdl-navigation > .mdl-navigation__link {
+  color: $light-gray;
+}
+
+#page-title {
+  padding: 32px 0px;
+  h1, 
+  h3 {
+    color: $light-gray;
+    text-align: center;
+  }
+}
+
+.layout-transparent {
+  background: url('http://sozai-good.com/img/8350.jpg') center / cover;
+  .mdl-layout__header,
+  .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+      your background is light. */
+    color: #95949a;
+  }
+}
+
+#drawer-close {
+  padding: 28px;
+  vertical-align: middle;
+  float: right;
+}
+
+.mdl-card {
+  background-color: $white;
+  width: 100%;
+  height: 420px;
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+}
+
+.card-square {
+  .mdl-card__title {
+    color: $white;
+    /*background:
+      bottom right 15% no-repeat #46B6AC;*/
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: 50%;
+      background-position-y: 50%;
+  }
+  .mdl-card__menu {
+    color: $white;
+  }
+}
+
+.card-event {
+  .mdl-card__title {
+    align-items: flex-start;
+  }
+  .mdl-card__title > h4 {
+    margin-top: 0;
+  }
+  .mdl-card__actions {
+    color: $light-gray;
+    border-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+    .material-icons {
+      padding-right: 10px;
+    }
+    .mdl-card__title, 
+    .mdl-card__actions, 
+    .mdl-card__actions > .mdl-button {
+      color: $white;
+    }
+  }
+}
+
+@font-face {
+    font-family: honoka-marugo;
+    src: url(../fonts/honoka-marugo/font_1_honokamarugo_1.1.ttf);
+}
+
+/*@font-face {
+    font-family: hannari;
+    src: url(../fonts/hannari/Hannari.otf);
+}
+
+@font-face {
+    font-family: honoka-min;
+    src: url(../fonts/honoka-min/font_1_honokamin.ttf);
+}*/

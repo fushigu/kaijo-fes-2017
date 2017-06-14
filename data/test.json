@@ -1,0 +1,39 @@
+{
+    "2405":{
+        "category":"文化",
+        "id":"2405",
+        "class":"text-tabs",
+        "titleShadow":"true",
+        "title":"Kaijo Wind Ensemble 2016",
+        "titleImage":"./images/2405.png",
+        "tabs":{
+            "詳細": "もはや海城祭の代名詞・風物詩・革命児(？)、海城吹奏楽団(KWE)が今年も、音楽室とミニステージでブラスの響きを奏でます！<br>日曜日優秋祭にも出演！",
+            "リンク": "<ul><li><a href='https://twitter.com/KWE2015' target='blank'>部活Twitter</a></li><ul>",
+            "場所": "2号館4階"
+        }
+    },
+    "5201":{
+        "category":"文化",
+        "id":"5201",
+        "class":"text-tabs",
+        "titleShadow":"true",
+        "title":"CHA-T",
+        "titleImage":"./images/5201.png",
+        "tabs":{
+            "詳細": "coming soon",
+            "場所": "5号館2階"
+        }
+    },
+    "k001":{
+        "category":"文化",
+        "id":"k001",
+        "class":"text-tabs",
+        "titleShadow":"false",
+        "title":"アカペライブ",
+        "titleColor":"#a0d8ef",
+        "tabs":{
+            "詳細": "coming soon",
+            "場所": "講堂"
+        }
+    }
+}

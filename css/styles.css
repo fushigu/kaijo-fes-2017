@@ -1,0 +1,171 @@
+#loader-bg {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #44617b;
+  z-index: 10;
+}
+
+#loader {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  color: #fffffc;
+  z-index: -100;
+}
+
+
+
+.mdl-layout-title {
+  font-weight: 600 !important;
+  color: #95949a;
+}
+
+.mdl-grid { 
+  position: relative;
+  min-height: 100%;
+}
+
+.highlight {
+  color: rgba(0, 0, 0, .54);
+  background-color: #f8e58c;
+}
+
+.button,
+#toPageTop {
+  cursor: pointer;
+}
+
+.mdl-navigation__link .material-icons {
+  padding-inline-end: 16px;
+}
+
+.mdl-card {
+  font-weight: 200;
+  width: 100%;
+  height: 420px;
+}
+
+.card-text .mdl-card__supporting-text {
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.card-text-tabs .mdl-tabs__panel.is-active {
+  height: 183px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button,
+.mdl-layout__header-row> .mdl-navigation> .mdl-navigation__link {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: #95949a;
+}
+
+#drawer-close {
+  padding: 28px;
+  vertical-align: middle;
+  float: right;
+}
+
+.mdl-card__title {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-event> .mdl-card__title {
+  align-items: flex-start;
+}
+
+.card-event> .mdl-card__title> h4 {
+  margin-top: 0;
+}
+
+.mdl-card__actions {
+  color: #95949a;
+  border-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.card-event> .mdl-card__actions> .material-icons {
+  padding-right: 10px;
+}
+
+.mdl-card__title-text,
+.mdl-card__menu,
+.card-event> .mdl-card__title,
+.card-event> .mdl-card__actions,
+.card-event> .mdl-card__actions> .mdl-button {
+  color: #fffffc;
+}
+
+.card-image> .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.title-shadow .mdl-card__title-text,
+.title-shadow .mdl-card__menu> .mdl-button {
+  background-color: rgba(89, 88, 87, 0.6);
+}
+.schedule tr:nth-child(even) {
+	background: rgba(68,97,123, 0.1);
+}
+
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+}
+.mdl-textfield .mdl-button {
+    position: absolute !important;
+    top: 29% !important;
+}
+.mdl-layout__header {
+    z-index: initial;
+}
+tr      {
+    cursor:pointer;
+}
+ 
+tr:hover    {
+    background: rgba(68,97,123, 0.5) !important
+    
+}
+.link {
+  display:block;
+  width:100%;
+  height:100%;
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
+}
+.mdl-tabs__tab-bar .material-icons {
+    line-height: inherit;
+}
+.mdl-card__menu >.mdl-chip {
+    font-size: inherit;
+}
+
+.mdl-card {
+  font-size: inherit;
+}
+.mdl-chip__action, .mdl-chip__contact {
+    vertical-align: top;
+}

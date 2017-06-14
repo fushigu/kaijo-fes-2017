@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <title >KAIJO FES 2016 -「和」-</title>
+    <meta charset="utf-8">
+    <meta name="author" content="海城文化祭実行委員会プログラム部">
+    <meta name="generator" content="Visual Studio Code"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="文化祭実行委員会が運営する海城祭公式サイトです。文化祭の開催情報や見どころをお伝えします！">
+    <meta name="keywords" content="海城,海城学園,文化祭,KAIJO FES 2016,海城中高文化祭,海城中学高校文化祭,公式サイト">
+    <meta property="og:image" content="http://www.kaijofes.com/images/share.jpg"> 
+    <meta property="og:url" content="http://www.kaijofes.com/"> 
+    <meta property="og:title" content="KAIJO FES 2016 -「和」-"> 
+    <meta property="og:description" content="文化祭実行委員会が運営する海城祭公式サイトです。文化祭の開催情報や見どころをお伝えします！"> 
+    <meta property="og:type" content="website"> 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KAIJO FES 2016 -「和」-">
+    <meta name="twitter:description" content="文化祭実行委員会が運営する海城祭公式サイトです。文化祭の開催情報や見どころをお伝えします！">
+    <meta name="twitter:image" content="http://www.kaijofes.com/images/share.jpg">
+    <meta name="keywords" content="海城,海城学園,文化祭,KAIJO FES 2016,海城中高文化祭,海城中学高校文化祭,公式サイト">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/material.blue_grey-indigo.min.css"> 
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+</head>
+<body>
+<div id="loader-bg">
+    <div id="loader">
+        <div class="mdl-spinner mdl-js-spinner is-active"></div>
+    </div>
+</div>
+<div id="wrap">
+    <div class="layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">KAIJO FES</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <script id="header" type="text/x-jsrender">
+                    {{props headerNav}}<a class="mdl-navigation__link" href="{{>prop}}" target="blank">{{>key}}</a>{{/props}}
+                </script>
+            </nav>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+                <label id="search-icon" class="mdl-button mdl-js-button mdl-button--icon" for="search">
+                    <i class="material-icons">search</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                    <input class="mdl-textfield__input" type="text" name="sample" id="search" autocomplete="on">
+                    <label class="invisible mdl-textfield__label" for="search">ページを検索...</label>
+                    <span class="mdl-textfield__error">見つかりません</span>
+                </div>
+            </div>
+            <button id="card-{{:id}}-menu" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">share</i></button>
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="card-{{:id}}-menu">
+                <a class="mdl-menu__item" href="https://plus.google.com/share?url=www.kaijofes.com" target="blank">Google+</a>
+                <a class="mdl-menu__item" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fja%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=KAIJO%20FES%202016%20-%E3%80%8C%E5%92%8C%E3%80%8D-&tw_p=tweetbutton&url=http%3A%2F%2Fwww.kaijofes.com%2F" target="blank">Twitter</a>
+                <a class="mdl-menu__item" href="https://www.facebook.com/sharer/sharer.php?u=www.kaijofes.com" target="blank">Facebook</a>
+                <a class="mdl-menu__item" href="mailto:?subject=海城文化祭2016&body=www.kaijofes.com" target="blank">メール</a>
+            </ul>
+        </div>
+        <div class="mdl-layout__header-row mdl-layout--small-screen-only">
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation"></nav>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer" id="mdl-drawer">
+        <span class="mdl-layout-title">
+            <span>カテゴリー</span>
+            <button id="drawer-close" class="mdl-button mdl-js-button mdl-button--icon mdl-layout--small-screen-only">
+                <i class="material-icons">close</i>
+            </button>
+        </span>
+        <nav class="mdl-navigation">
+            <script id="drawer" type="text/x-jsrender">
+                {{props drawerNav}}<a class="button mdl-navigation__link" id="{{>prop}}"><div class="material-icons">{{>key}}</div>{{>prop}}</a>{{/props}}
+            </script>
+        </nav>
+    </div>
+    <main class="mdl-layout__content">
+        
+        <div id="snackbar" class="mdl-js-snackbar mdl-snackbar">
+            <div class="mdl-snackbar__text"></div>
+            <button class="mdl-snackbar__action" type="button"></button>
+        </div>
+        <div class="mdl-grid">
+            <script id="card" type="text/x-jsrender">{{* window.pageUrl="http://kaijo-physics-club.github.io/2-kaijo-fes-2016.github.io";}}
+            <div id="card-{{:id}}" class="mdl-cell mdl-cell--4-col">
+            {{if class == "table"}}
+                <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                    <thead><tr>{{for tableHead}}<th>{{>#data}}</th>{{/for}}</tr></thead>
+                    <tbody>{{for tableCell}}<tr>{{props #data}}<td>{{>prop}}</td>{{/props}}</tr>{{/for}}</tbody>
+                </table>
+            {{else}}
+                <div id="card-{{:id}}" class="card-{{:class}} {{if titleShadow == "true"}}title-shadow{{/if}} mdl-card mdl-shadow--2dp" style="background:{{if class == "event"}}{{:color}};{{else class == "image"}}url('{{:image}}') center / cover;{{/if}}">
+                {{if class == "embed"}}{{:embed}}{{if text}}<div class="mdl-card__supporting-text">{{:text}}</div>{{/if}}
+                {{else}}
+                    <div class="mdl-card__title mdl-card--expand" {{if class == "text"||"text-tabs"}}style="background:{{if titleColor}}{{:titleColor}};{{else titleImage}}url('{{:titleImage}}') center / cover;{{/if}}"{{/if}}>
+                        {{if title}}<h{{if class == "event"}}4{{else}}2{{/if}} class="mdl-card__title-text">{{:title}}</h{{:heading || 2}}>{{/if}}
+                    </div>
+                    {{if class == "text"}}<div class="mdl-card__supporting-text">{{:text}}</div>
+                    {{else class == "text-tabs"}}
+                        <div id="tabs" class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                            <div class="mdl-tabs__tab-bar">{{props tabs}}<a href="#panel-{{>#index}}" class="mdl-tabs__tab"><i class="material-icons">{{:key}}</i></a>{{/props}}</div>
+                            {{props tabs}}<div class="mdl-tabs__panel" id="panel-{{>#index}}"><div class="mdl-card__supporting-text">{{:prop}}</div></div>{{/props}}
+                        </div>
+                    {{else class == "event"}}
+                    {{else class == "image"}}
+                        <div class="mdl-card__actions">
+                            {{if nameText}}<span class="card-image__filename">{{:nameText}}</span>
+                            {{else nameLink}}{{props nameLink}}<a class="card-image__filename" href="{{>prop}}" target="blank">{{>key}}</a>{{/props}}
+                            {{/if}}
+                        </div>
+                    {{/if}}
+                    <div class="mdl-card__menu">
+                        {{if orgName}}<span class="mdl-chip mdl-chip--contact" id="card-{{:id}}-chip">
+                            <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">{{:orgInit}}</span>
+                            <span class="mdl-chip__text">{{:orgId}}</span></span>{{/if}}
+                        <button id="card-{{:id}}-fav" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">star_border</i></button>
+                        <div class="mdl-tooltip" for="card-{{:id}}-fav">お気に入り</div>
+                        <div class="mdl-tooltip" for="card-{{:id}}-chip">{{:orgName}}</div>
+                    </div>
+                {{/if}}
+                </div>
+            {{/if}}
+            </div>
+            </script>
+        </div>
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">&copy; 2016 海城学園</div>
+                <div class="mdl-logo">企画・制作 中高物理部</div>
+                <ul class="mdl-mini-footer__link-list">
+                    <script id="footer" type="text/x-jsrender">
+                        {{props footerNav}}<li><a href="{{>prop}}" target="blank">{{>key}}</a></li>{{/props}}
+                    </script>
+                </ul>
+            </div>
+            <div class="mdl-mini-footer__right-section">
+                <ul class="mdl-mini-footer__link-list">
+                    <li><a id="toPageTop">ページトップへ</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script id="tooltip" type="text/x-jsrender">
+            {{props tooltipBottom}}<div class="mdl-tooltip mdl-tooltip--bottom" for="{{>key}}">{{>prop}}</div>{{/props}}
+            {{props tooltipTop}}<div class="mdl-tooltip mdl-tooltip--top" for="{{>key}}">{{>prop}}</div>{{/props}}
+        </script>
+    </main>
+    </div>
+</div>
+</div>
+</body>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/scripts.min.js"></script>  
+    <script defer src="js/jsrender.min.js"></script>
+    <script defer src="mdl/material.min.js"></script>
+    <script defer src="js/naturalSort.min.js"></script>
+    <script defer src="js/js.cookie.min.js"></script>
+    <script defer src="js/jquery.highlight.min.js"></script>
+</html>

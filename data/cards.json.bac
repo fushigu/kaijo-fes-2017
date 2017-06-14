@@ -1,0 +1,68 @@
+[
+  {
+    "category":"ホーム",
+    "id":"0001",
+    "class":"text-tabs",
+    "title":"ようこそ",
+    "titleImage":"./images/main-panel-02-bg.jpg",
+    "tabs":{
+      "詳細": "海城中学・高校の生徒が主催する文化祭です。年に一度、外部に公開される唯一の行事で、クラスやクラブの展示から、音楽やパフォーマンス部の各種発表、運動部の模擬試合、さらには受験生向けの企画やステージイベントなど、様々なコンテンツで盛り上げていきます。「小学生から大人まで楽しめる文化祭」をコンセプトに掲げており、毎年、受験生のみならず、2万人以上の様々な人が訪れる特大イベントです。",
+      "リンク": "ホームページ",
+      "場所": "場所"
+    }
+  },{
+    "category":"ホーム",
+    "id":"0003",
+    "class":"event",
+    "title":"日時：<br>9月16日から17日<br>午前9時から午後4時<br><br>場所：<br>〒169-0072<br>東京都新宿区<br>大久保3-6-1",
+    "color":"#44617b",
+    "buttonText":"カレンダーに追加",
+    "buttonlink":"",
+    "icon":"event"
+  },{
+    "category":"ホーム",
+    "id":"0004",
+    "class":"text",
+    "title":"テーマ「Re:START」について",
+    "titleImage":"./images/main-panel-03-bg.jpg",
+    "text":"<strong>※去年のサイトから</strong><br>いくつかの候補の中から、生徒の投票によって決められたものです。直訳すると、「再出発」―。名物の花火が終わり、グラウンドが芝生化。わずか一年で多くの変化があった海城。心機一転、新たな気持ちで文化祭に取り組んでいきたいという生徒たちの思いが現れています。"
+  },{
+    "category":"ホーム",
+    "id":"0005",
+    "class":"text",
+    "title":"ご来場の際の諸注意",
+    "titleColor":"#bfa46f",
+    "text":"注意"
+  },{
+    "category":"ホーム",
+    "id":"0006",
+    "class":"text",
+    "title":"このサイトについて",
+    "titleImage":"./images/main-panel-05-bg.jpg",
+    "text":"<a href='https://ja-jp.facebook.com/kaijofes/' target='blank'>文化祭実行委員会</a>が運営する海城祭公式サイトです。文化祭の開催情報や見どころをお伝えします！<br>※サイトに掲示されている内容が、予告なく変更される場合がございます。あらかじめご了承下さい。"
+  },{
+    "category":"ホーム",
+    "id":"0007",
+    "class":"embed",
+    "embed":"<iframe src='https://www.youtube.com/embed/kTuuFgq0L8M' height='188' frameborder='0' allowfullscreen></iframe>",
+    "text":"海城祭のテーマをここ数年から絡めたPVです。短い動画なのでぜひ是非ご覧ください！"
+  },{
+    "category":"ホーム",
+    "id":"0008",
+    "class":"embed",
+    "embed":"<iframe src='https://www.youtube.com/embed/ic8QoymxWr0' height='188' frameborder='0' allowfullscreen></iframe>",
+    "text":"海城祭PV第二弾です！海城祭実行委員長の張と生徒会長の浅野のインタビューをもとに制作しました(^^♪<br>海城生の文化祭に対する意気込みなどがわかる動画になりました(^^)/これを見れば海城祭に対する親近感がわく湧くこと間違いなし！"
+  },{
+    "category":"ホーム",
+    "id":"0009",
+    "class":"image",
+    "image":"https://maps.googleapis.com/maps/api/staticmap?center=35.7046,139.7024471&zoom=15&size=420x420&maptype=roadmap&markers=35.7046,139.702447&key=AIzaSyCL4ezwAscP5KJprD-f2XRCDVgbt84_NE8&style=visibility:simplified",
+    "nameLink":{"Googleマップ":"https://goo.gl/maps/efudWiSEcQC2"}
+  },{
+    "category":"ホーム",
+    "id":"0010",
+    "class":"table",
+    "tableHead":["「模擬授業」","先生","教科"],
+    "tableCell":[["13日10時から","小澤先生","数学科"],["14時から","上村先生","理科科"],["14日10時から","福島先生","社会科"],["14時から","関口先生","理科科"]]
+  }
+]

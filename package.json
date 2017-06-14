@@ -1,0 +1,22 @@
+{
+  "name": "2-kaijo-fes-2016.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaijo-physics-club/2-kaijo-fes-2016.github.io.git"
+  },
+  "author": "monjo12@live.jp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaijo-physics-club/2-kaijo-fes-2016.github.io/issues"
+  },
+  "homepage": "https://github.com/kaijo-physics-club/2-kaijo-fes-2016.github.io#readme",
+  "devDependencies": {
+    "gulp-sass": "^2.2.0"
+  }
+}

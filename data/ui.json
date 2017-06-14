@@ -1,0 +1,16 @@
+﻿{
+    "headerNav": {
+        "学校HP": "https://www.kaijo.ed.jp/",
+        "Facebook": "https://www.facebook.com/kaijofes",
+        "海原会": "http://www.unabarakai.jp/index.php"
+    },"drawerNav": {"home":"ホーム","schedule":"タイムテーブル","event":"イベント","live_tv":"ミニステージ","restaurant":"食べ物","lightbulb_outline":"科学","local_movies":"文化","directions_run":"スポーツ","music_note":"ライブハウス","school":"クラス企画","star":"お気に入り"    },"footerNav": {
+        "GitHub": "https://github.com/kaijo-physics-club/2-kaijo-fes-2016.github.io"
+    },"tooltipBottom": {
+        "drawer-close": "閉じる",
+        "search-icon": "検索",
+        "mdl-layout__drawer-button": "メニュー"
+    },"tooltipTop": {
+        "toPageTop": "ページ最上部へ",
+        "upgrade-dom-btn": "UIを更新"
+    }
+}
