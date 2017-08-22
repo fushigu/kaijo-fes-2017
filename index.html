@@ -140,13 +140,17 @@
                                 {{/if}}
                                 <div class="mdl-card__menu">
                                     {{if orgName}}
-                                    <span class="mdl-chip mdl-chip--contact" id="card-{{:id}}-chip">
+                                    <!--<span class="mdl-chip mdl-chip--contact" id="card-{{:id}}-chip">
                                         <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">{{:orgInit}}</span>
-                                        <span class="mdl-chip__text">{{:orgId}}</span>
-                                    </span>{{/if}}
+                                        <span class="mdl-chip__text">{{:orgID}}</span>
+                                    </span>-->
+                                    <span class="mdl-chip">
+                                        <span class="mdl-chip__text">{{:orgName}}</span>
+                                    </span>
+                                    {{/if}}
                                     <button id="card-{{:id}}-fav" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">star_border</i></button>
                                     <div class="mdl-tooltip" for="card-{{:id}}-fav">お気に入り</div>
-                                    <div class="mdl-tooltip" for="card-{{:id}}-chip">{{:orgName}}</div>
+                                    <div class="mdl-tooltip" for="card-{{:id}}-chip">{{:orgName}}</div><!--コメントアウト-->
                                 </div>
                                 {{/if}}
                             </div>
