@@ -20,7 +20,7 @@
     <meta name="keywords" content="海城,海城学園,文化祭,KAIJO FES 2017,海城中高文化祭,海城中学高校文化祭,公式サイト">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/material.blue_grey-indigo.min.css">
-    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
 </head>
@@ -34,14 +34,14 @@
         <div class="layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
             <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--waterfall">
                 <div class="mdl-layout__header-row">
-                    <span class="mdl-layout-title">KAIJO FES</span>
+                    <span class="mdl-layout-title"><div class="mdl-layout-title-bar">KAIJO FES</div></span>
                     <div class="mdl-layout-spacer"></div>
-                    <nav class="mdl-navigation mdl-layout--large-screen-only">
-                        <script id="header" type="text/x-jsrender">
-                            {{props headerNav}}
-                            <a class="mdl-navigation__link" href="{{>prop}}" target="blank">{{>key}}</a>{{/props}}
-                        </script>
-                    </nav>
+                        <nav class="mdl-navigation mdl-layout--large-screen-only">
+                            <script id="header" type="text/x-jsrender">
+                                {{props headerNav}}
+                                <a class="mdl-navigation__link mdl-navigation__link_color" href="{{>prop}}" target="blank">{{>key}}</a>{{/props}}
+                            </script>
+                        </nav>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
                         <label id="search-icon" class="mdl-button mdl-js-button mdl-button--icon" for="search">
                             <i class="material-icons">search</i>
@@ -140,13 +140,13 @@
                                 {{/if}}
                                 <div class="mdl-card__menu">
                                     {{if orgName}}
-                                    <!--<span class="mdl-chip mdl-chip--contact" id="card-{{:id}}-chip">
+                                    <span class="mdl-chip mdl-chip--contact" id="card-{{:id}}-chip">
                                         <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">{{:orgInit}}</span>
-                                        <span class="mdl-chip__text">{{:orgID}}</span>
-                                    </span>-->
-                                    <span class="mdl-chip">
-                                        <span class="mdl-chip__text">{{:orgName}}</span>
+                                        <span class="mdl-chip__text">{{:orgId}}</span>
                                     </span>
+                                    <!--<span class="mdl-chip">
+                                        <span class="mdl-chip__text">{{:orgName}}</span>
+                                    </span>-->
                                     {{/if}}
                                     <button id="card-{{:id}}-fav" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"><i class="material-icons">star_border</i></button>
                                     <div class="mdl-tooltip" for="card-{{:id}}-fav">お気に入り</div>
@@ -169,7 +169,7 @@
                             </script>
                         </ul>
                     </div>
-                    <div class="mdl-mini-footer__right-section">
+                    <div class="mdl-min-section">
                         <ul class="mdl-mini-footer__link-list">
                             <li><a id="toPageTop">ページトップへ</a></li>
                         </ul>
@@ -187,7 +187,7 @@
     </div>
 </body>
 <script src="js/jquery-2.2.3.min.js"></script>
-<script src="js/scripts.min.js"></script>
+<script src="js/scripts.js"></script>
 <script defer src="js/jsrender.min.js"></script>
 <script defer src="mdl/material.min.js"></script>
 <script defer src="js/naturalSort.min.js"></script>
