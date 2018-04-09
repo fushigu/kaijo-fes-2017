@@ -5,7 +5,7 @@
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #44617b;
+  background: #252525 !important;/*ロード画面の色*/
   z-index: 10;
 }
 
@@ -22,7 +22,7 @@
 
 .mdl-layout-title {
   font-weight: 600 !important;
-  color: #95949a;
+  color: #757575;/*かてごりの色*/
 }
 
 .mdl-grid { 
@@ -42,6 +42,7 @@
 
 .mdl-navigation__link .material-icons {
   padding-inline-end: 16px;
+
 }
 
 .mdl-card {
@@ -66,7 +67,9 @@
 .layout-transparent .mdl-layout__drawer-button,
 .mdl-layout__header-row> .mdl-navigation> .mdl-navigation__link {
   /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
+     your background is light.
+    いろいろな色
+  */
   color: #95949a;
 }
 
@@ -128,6 +131,7 @@
 }
 .schedule tr:nth-child(even) {
 	background: rgba(68,97,123, 0.1);
+    /*スケジュールタブの色？*/
 }
 
 .schedule {
@@ -146,8 +150,8 @@ tr      {
 }
  
 tr:hover    {
-    background: rgba(68,97,123, 0.5) !important
-    
+    background: rgba(68,97,123, 0.5) !important;
+    /*表の色？*/
 }
 .link {
   display:block;
@@ -168,4 +172,14 @@ tr:hover    {
 }
 .mdl-chip__action, .mdl-chip__contact {
     vertical-align: top;
+}
+
+.mdl-layout-title-bar{
+    color: rgba(255, 255, 255, 1) !important; 
+    /*タイトルの色*/
+}
+
+.mdl-navigation__link_color{
+    color: rgba(255, 255, 255, 1) !important;
+    /*右上のリンクの色*/
 }
